@@ -43,40 +43,40 @@ function printTime(){
   
   switch (month) {
     
-    case 1:
+    case 0:
       month = "Januari";
       break;
-    case 2:
+    case 1:
       month = "Februari";
       break;
-    case 3:
+    case 2:
       month = "Maret";
       break;
-    case 4:
+    case 3:
       month = "April";
       break;
-    case 5:
+    case 4:
       month = "Mei";
       break;
-    case 6:
+    case 5:
       month = "Juni";
       break;
-    case 7:
+    case 6:
       month = "Juli";
       break;
-    case 8:
+    case 7:
       month = "Agustus";
+      break;
+    case 8:
+      month = "September";
       break;
     case 9:
       month = "Oktober";
       break;
     case 10:
-      month = "Oktober";
-      break;
-    case 11:
       month = "November";
       break;
-    case 12:
+    case 11:
       month = "Desember";
       break;
   }
